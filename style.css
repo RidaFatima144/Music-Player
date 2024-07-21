@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: url('https://images.unsplash.com/photo-1471478331149-c72f17e33c73?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.music {
+    background-color: white;
+    border-radius: 10px;
+    height: 50vh;
+    text-align: center;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.6;
+}
+
+.songs h1 {
+    margin: 0;
+}
+
+.playpause {
+    margin-top: 20px;
+}
+
+.playpause button {
+    cursor: pointer;
+    background-color: #4e2452;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.playpause button:hover {
+    background-color: #6c2872;
+    cursor: pointer;
+}
+
+#result{
+    margin: 20px 0;
+}
